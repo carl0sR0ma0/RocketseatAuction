@@ -7,7 +7,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8F69564B-21A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{3A93146A-A0C1-44DA-9497-BD201455EA7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RocketseatAuction.API", "src\RocketsetAuction.API\RocketseatAuction.API.csproj", "{8D1F22C0-F908-4D80-A6FB-3AD58A8969EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RocketseatAuction.API", "src\RocketsetAuction.API\RocketseatAuction.API.csproj", "{8D1F22C0-F908-4D80-A6FB-3AD58A8969EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "db", "db", "{AFC3A640-DC98-4899-B3DF-17C346BF69B8}"
+	ProjectSection(SolutionItems) = preProject
+		db\leilaoDbNLW.db = db\leilaoDbNLW.db
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
