@@ -14,6 +14,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "db", "db", "{AFC3A640-DC98-
 		db\leilaoDbNLW.db = db\leilaoDbNLW.db
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseCases.Test", "tests\UseCases.Test\UseCases.Test.csproj", "{B16404FA-097A-45C9-929E-F4A1EFB8522E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,12 +26,17 @@ Global
 		{8D1F22C0-F908-4D80-A6FB-3AD58A8969EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D1F22C0-F908-4D80-A6FB-3AD58A8969EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D1F22C0-F908-4D80-A6FB-3AD58A8969EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B16404FA-097A-45C9-929E-F4A1EFB8522E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B16404FA-097A-45C9-929E-F4A1EFB8522E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B16404FA-097A-45C9-929E-F4A1EFB8522E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B16404FA-097A-45C9-929E-F4A1EFB8522E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{8D1F22C0-F908-4D80-A6FB-3AD58A8969EA} = {8F69564B-21A6-467A-9B7E-5FDCA5F11A85}
+		{B16404FA-097A-45C9-929E-F4A1EFB8522E} = {3A93146A-A0C1-44DA-9497-BD201455EA7A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {013AD555-1CFC-4A56-B2B1-917391FEBD06}
